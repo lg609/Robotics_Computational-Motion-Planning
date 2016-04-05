@@ -56,6 +56,7 @@ end
 
 %% Plot configuration space
 
+
 subplot (1,2,2);
 
 axis equal;

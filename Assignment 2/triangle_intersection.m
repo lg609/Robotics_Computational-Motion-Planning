@@ -27,11 +27,13 @@ function flag = triangle_intersection(P1, P2)
             y3 = P2(j ,2);
             y4 = P2(jj,2);      
 
-            if line_intersection(x1, x2,x3, x4, y1, y2, y3, y4)
+            if line_intersection(x1, x2, x3, x4, y1, y2, y3, y4) == 1
                 flag = true;
             end
         end
     end
-
+    if triangle_inside(P1,P2)
+        flag = true;
+    end        
 % *******************************************************************
 end
