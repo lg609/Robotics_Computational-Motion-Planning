@@ -3,7 +3,7 @@
 %
 
 %% Draw Robot and obstacles
-figure;
+figure(1);
 
 subplot(1,2,1);
 
@@ -77,11 +77,13 @@ title ('Configuration Space');
 %% Plot a path through torus space
 
 % New figure to visualize progress of planner
-figure;
+figure(2);
 
 % You should experiment by changing these coordinates
-start_coords = [40, 80];
-end_coords = [100, 110];
+% start_coords = [40, 80];
+% end_coords = [100, 110];
+start_coords=[80,20];
+end_coords=[100,160];
 
 % Find a route between the start and end nodes
 route = DijkstraTorus (cspace, start_coords, end_coords);
