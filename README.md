@@ -5,7 +5,7 @@ This repository contains notes and assignment for the University of Pennsylvania
 I am still taking the course. Therefore, I just have the first assignment:
 
  * Assignment 1 : Implement Dijkstra's algorithm and A* algorithm.
- * Assignment 2 : Representations of conﬁguration space. (I am still working in this task).
+ * Assignment 2 : Representations of conﬁguration space of a Two Link Planar Robot
 
 ### For more information:
 
