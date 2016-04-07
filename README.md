@@ -6,6 +6,7 @@ I am still taking the course. Therefore, I just have the first assignment:
 
  * Assignment 1 : Implement Dijkstra's algorithm and A* algorithm.
  * Assignment 2 : Representations of conﬁguration space of a Two Link Planar Robot
+ * Assignment 3 : Probabilistic roadmap (PRM) of conﬁguration space of a Six Link Planar Robot
 
 ### For more information:
 
